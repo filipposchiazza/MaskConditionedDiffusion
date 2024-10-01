@@ -165,6 +165,14 @@ for i, mask in enumerate(tqdm(dataloader)):
         save_counter += 1
 ```
 
+
 ## Dependencies
+* python == 3.12
+* pytorch == 2.4.1
+* torchvision == 0.19.1 
+* tqdm == 4.66.5
+* numpy == 1.26.4
+* matplotlib == 3.9.2
+  
 
 
