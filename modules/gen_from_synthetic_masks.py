@@ -33,5 +33,5 @@ for i, mask in enumerate(tqdm(dataloader)):
 
     for j in range(config.GEN_BATCH_SIZE):
         img = gen_imgs[j].detach().cpu().numpy().transpose(1, 2, 0)
-        plt.imsave(os.path.join(config.SAVE_SEMI_SYN_FOLDER, f'gen_img_{save_counter}.png'), img)
+        plt.imsave(os.path.join(config.SAVE_SYN_FOLDER, f'gen_img_{save_counter}.png'), img)
         save_counter += 1
