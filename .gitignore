@@ -1,3 +1,6 @@
 # python file
 __pycache__/
 *.pyc
+
+# configuration file (template already in the repository)
+config.py 
