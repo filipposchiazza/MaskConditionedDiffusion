@@ -11,6 +11,7 @@ The files are organized as follows:
 - `gaussian_diffusion_utils.py`: Contains the implementation of the Gaussian Diffusion process.
 - `config.py`: Contains the configuration parameters for the Diffusion model and the training process.
 - `gen_from_real_masks.py` and `gen_from_synthetic_masks.py`: Contains the scripts to generate the images from the segmentation masks.
+- `gen_unconditional.py`: Contains the script to generate the images without conditioning the diffusion process to the segmentation masks.
 - `custom_lr_scheduler.py`: Contains the implementation of the custom learning rate scheduler.
 
 ## How to use for training
